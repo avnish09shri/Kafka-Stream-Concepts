@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Kafka-Stream-Sample</module>
+        <module>Kafka-Stream-Order</module>
     </modules>
 
     <parent>

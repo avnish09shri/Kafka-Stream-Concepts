@@ -1,0 +1,32 @@
+docker-compose -f docker-compose-core.yml -p core up -d
+
+# create kafka topic
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic <topic_name>
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic <topic_name> --partitions <partition_no> --replication-factor <replica_no>
+
+# list of all topics
+kafka-topics.sh --bootstrap-server localhost:9092 --list
+
+# structure of a topic
+kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic <topic_name>
+
+# change the structure of a topic like add replica , partition etc.
+kafka-topics.sh --bootstrap-server localhost:9092 --alter --topic <topic_name> --partitions <partition_no>
+
+# delete data from a topic
+kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic <topic_name>
+
+# check data produced by producer in a particular partition
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic <topic_name> --offset <earliest/latest> --partition <partition_no>
+
+# structure of different group in a group.
+kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group <group_name> --describe
+
+# this helps to read data from specific offset.
+kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group <group_name> --execute --reset-offsets --to-offset <offset_no> --topic <topic_name>:partition_no
+
+# this helps to show data from beginning
+kafka-consumer-groups.sh --bootstrap-server localhost:9092 --from-beginning --topic <topic_no>
+
+# cron expression syntax
+<second> <minute> <hour> <day of month> <month> <day of week>
