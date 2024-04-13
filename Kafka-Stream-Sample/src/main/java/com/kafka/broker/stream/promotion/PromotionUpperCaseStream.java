@@ -8,8 +8,10 @@ import org.apache.kafka.streams.kstream.Printed;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class PromotionUpperCaseStream {
+
+    // this class converts both key and value in uppercase.
 
     @Bean
     public KStream<String, String> kStreamPromotionUpperCase(StreamsBuilder builder){

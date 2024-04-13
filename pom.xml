@@ -7,6 +7,7 @@
     <modules>
         <module>Kafka-Stream-Sample</module>
         <module>Kafka-Stream-Order</module>
+        <module>Kafka-Stream-Storage</module>
     </modules>
 
     <parent>
