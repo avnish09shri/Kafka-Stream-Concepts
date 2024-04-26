@@ -26,7 +26,10 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group <group_name> 
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group <group_name> --execute --reset-offsets --to-offset <offset_no> --topic <topic_name>:partition_no
 
 # this helps to show data from beginning
-kafka-consumer-groups.sh --bootstrap-server localhost:9092 --from-beginning --topic <topic_no>
+kafka-consumer-groups.sh --bootstrap-server localhost:9092 --from-beginning --topic <topic_name>
 
 # cron expression syntax
 <second> <minute> <hour> <day of month> <month> <day of week>
+
+#print key
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --property print.key=true --topic <topic_name>

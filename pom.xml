@@ -8,6 +8,8 @@
         <module>Kafka-Stream-Sample</module>
         <module>Kafka-Stream-Order</module>
         <module>Kafka-Stream-Storage</module>
+        <module>Kafka-Stream-Pattern</module>
+        <module>Kafka-Stream-Reward</module>
     </modules>
 
     <parent>
