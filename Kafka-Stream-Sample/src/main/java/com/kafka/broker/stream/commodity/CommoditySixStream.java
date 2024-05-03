@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.support.KafkaStreamBrancher;
 import org.springframework.kafka.support.serializer.JsonSerde;
 
-@Configuration
+//@Configuration
 @Slf4j
 public class CommoditySixStream {
 

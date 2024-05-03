@@ -33,6 +33,7 @@ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --from-beginning --to
 
 #print key
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --property print.key=true --topic <topic_name>
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --property print.key=true --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer --topic <topic_name>
 
 # value serializer
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --property print.key=true
