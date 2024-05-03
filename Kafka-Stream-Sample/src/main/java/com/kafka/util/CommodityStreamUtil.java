@@ -4,7 +4,12 @@ import com.kafka.broker.message.OrderMessage;
 import com.kafka.broker.message.OrderPatternMessage;
 import com.kafka.broker.message.OrderRewardMessage;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.kafka.streams.KeyValue;
+import org.apache.kafka.streams.kstream.KeyValueMapper;
+import org.apache.kafka.streams.kstream.Named;
 import org.apache.kafka.streams.kstream.Predicate;
+
+import java.util.Base64;
 
 public class CommodityStreamUtil {
 
@@ -45,5 +50,21 @@ public class CommodityStreamUtil {
 
     public static Predicate<String, OrderMessage> isLargeQuantity(){
         return (key, value) -> value.getQuantity()>200;
+    }
+
+    public static Predicate<? super String, ? super OrderPatternMessage> isPlastic() {
+        return (key, value) -> StringUtils.startsWithIgnoreCase(value.getItemName(), "plastic");
+    }
+
+    public static Predicate<? super String,? super OrderMessage> isCheap() {
+        return (key, value) -> value.getPrice() < 100;
+    }
+
+    public static KeyValueMapper<String, OrderMessage, String> generateStorageKey() {
+        return (key, value) -> Base64.getEncoder().encodeToString(value.getOrderNumber().getBytes());
+    }
+
+    public static KeyValueMapper<String, OrderMessage, KeyValue<String, OrderRewardMessage>> mapToOrderRewardChangeKey() {
+        return (key, value) -> KeyValue.pair(value.getOrderLocation(), mapToOrderReward(value));
     }
 }
