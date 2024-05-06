@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c30ba19c-3b8f-47d8-b76a-6f8ed9f520e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/commodity/CommodityFiveStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/commodity/CommodityFourStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/commodity/CommoditySixStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/commodity/CommodityThreeStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/commodity/CommodityTwoStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/commodity/CommodityOneStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/commodity/CommodityOneStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/util/CommodityStreamUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/util/CommodityStreamUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
-    </list>
+    <list default="true" id="c30ba19c-3b8f-47d8-b76a-6f8ed9f520e1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/avnis/Downloads/sts workspace/Kafka-Stream-Concepts/Kafka-Stream-Order/src/main/java/com/kafka/command/service",
+    "last_opened_file_path": "C:/Users/avnis/Downloads/sts workspace/Kafka-Stream-Concepts/Kafka-Stream-Sample/src/main/java/com/kafka/broker/message",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -73,13 +63,14 @@
       <recent name="com.kafka.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Sample\src\main\java\com\kafka\broker\message" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\command\service" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\command\action" />
-      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\broker\producer" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\broker\message" />
-      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\api\server" />
+      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\broker\producer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kafka.broker.stream.customer.purchase" />
       <recent name="com.kafka.broker.stream.feedback" />
       <recent name="com.kafka.broker.message" />
       <recent name="com.kafka.broker.stream.commodity" />
