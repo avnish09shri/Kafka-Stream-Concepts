@@ -44,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/avnis/Downloads/sts workspace/Kafka-Stream-Concepts/Kafka-Stream-Sample/src/main/java/com/kafka/util",
+    "last_opened_file_path": "C:/Users/avnis/Downloads/sts workspace/Kafka-Stream-Concepts/Kafka-Stream-Sample/src/main/java/com/kafka/broker/message",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -63,18 +63,18 @@
       <recent name="com.kafka.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Sample\src\main\java\com\kafka\broker\message" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Sample\src\main\java\com\kafka\util" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\command\service" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\command\action" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\broker\producer" />
-      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\broker\message" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kafka.broker.stream.feedback.rating" />
       <recent name="com.kafka.broker.stream.flashsale" />
       <recent name="com.kafka.broker.message" />
       <recent name="com.kafka.broker.stream.customer.purchase" />
       <recent name="com.kafka.broker.stream.feedback" />
-      <recent name="com.kafka.broker.stream.commodity" />
     </key>
   </component>
   <component name="RunManager" selected="Application.KafkaStreamSampleApplication">
@@ -119,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderStreamApplication" />
         <item itemvalue="Application.KafkaStreamSampleApplication" />
+        <item itemvalue="Application.OrderStreamApplication" />
         <item itemvalue="Application.StorageStreamApplication" />
       </list>
     </recent_temporary>
