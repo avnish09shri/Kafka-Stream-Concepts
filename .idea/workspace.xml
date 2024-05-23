@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c30ba19c-3b8f-47d8-b76a-6f8ed9f520e1" name="Changes" comment="" />
+    <list default="true" id="c30ba19c-3b8f-47d8-b76a-6f8ed9f520e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Order/src/main/java/com/kafka/api/request/InventoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Order/src/main/java/com/kafka/api/server/InventoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Order/src/main/java/com/kafka/broker/message/InventoryMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Order/src/main/java/com/kafka/broker/producer/InventoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Order/src/main/java/com/kafka/command/action/InventoryAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Order/src/main/java/com/kafka/command/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/message/InventoryMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/inventory/InventoryFiveStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/inventory/InventoryFourStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/inventory/InventoryOneStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/inventory/InventorySixStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/inventory/InventoryThreeStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/inventory/InventoryTwoStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/util/InventoryTimeStampExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/feedback/rating/FeedbackRatingTwoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka-Stream-Sample/src/main/java/com/kafka/broker/stream/feedback/rating/FeedbackRatingTwoStream.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/avnis/Downloads/sts workspace/Kafka-Stream-Concepts/Kafka-Stream-Sample/src/main/java/com/kafka/broker/message",
+    "last_opened_file_path": "C:/Users/avnis/Downloads/microservices-3.2.3",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -63,18 +80,18 @@
       <recent name="com.kafka.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Sample\src\main\java\com\kafka\broker\message" />
-      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Sample\src\main\java\com\kafka\util" />
+      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Sample\src\main\java\com\kafka\broker\stream\inventory" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\command\service" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\command\action" />
+      <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\broker\message" />
       <recent name="C:\Users\avnis\Downloads\sts workspace\Kafka-Stream-Concepts\Kafka-Stream-Order\src\main\java\com\kafka\broker\producer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kafka.broker.stream.inventory" />
+      <recent name="com.kafka.broker.message" />
       <recent name="com.kafka.broker.stream.feedback.rating" />
       <recent name="com.kafka.broker.stream.flashsale" />
-      <recent name="com.kafka.broker.message" />
       <recent name="com.kafka.broker.stream.customer.purchase" />
-      <recent name="com.kafka.broker.stream.feedback" />
     </key>
   </component>
   <component name="RunManager" selected="Application.KafkaStreamSampleApplication">
